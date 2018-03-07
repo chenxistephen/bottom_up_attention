@@ -1,0 +1,1 @@
+clear; /usr/bin/python ./tools/coco_generate_npy.py --gpu 0,1,2,3 --split coco_train --def models/vg/ResNet-101/faster_rcnn_end2end_final/test.prototxt --cfg experiments/cfgs/faster_rcnn_end2end_resnet.yml --net data/faster_rcnn_models/resnet101_faster_rcnn_final_iter_320000.caffemodel --out features/coco_roipool5_npy
